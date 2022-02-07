@@ -9,7 +9,7 @@ abstract: "COVID-19 case datasets are important tools for rational implementatio
 bibliography: ref_list.bib
 ---
 
-Here is some body text. ^[This footnote will appear at the bottom of the page.: https://github.com/chloe-jin/sta304]
+Code and data supporting this analysis is available at. ^[This footnote will appear at the bottom of the page.: https://github.com/chloe-jin/sta304]
 
 ```{r, include = FALSE}
 library(opendatatoronto)
@@ -50,7 +50,7 @@ The COVID-19 pandemic is now in its third year since the Who declared the novel 
 
 COVID-19 case statistics are an important tool for rational implementation of medical measures and allocation of medical resources to avoid outbreak caused by transmission existed infections.Data from COVID-19 reports contains demographic, geographic, and severity information. Demographic information can used to understand the susceptible population and provide reference for clinical management; geographic information can help track transmission routes for disinfection and immunization; severity information can guide the deployment of medical resources.
 
-Given the importance of COVID-19 case statistics in public health and medical research, it is necessary to understand how COVID-19 related data is reported and how it may be interpreted. For this report, I will use open-access data from the Toronto Police Services. The raw dataset will be cleaned and modified in analyzing purpose, without change to original data. The main content focuses on the pattern of case outcome by groups of gender and age, source of infection, and time lag for case reporting. Analyzing are based on summary table and data visualization using statistical graphes, including proportional, pie, bar, and box plots, as well as the real-world context. The dataset will be processed and analyzed in R primarily using the tidyverse [@tidyverse] and dplyr [@dplyr] packages. Figures and tables will be created with ggplot2 [@ggplot2], lubridate [@lubridate], patchwork [@patchwork], and scales [@scales].
+Given the importance of COVID-19 case statistics in public health and medical research, it is necessary to understand how COVID-19 related data is reported and how it may be interpreted. For this report, I will use open-access data from the Toronto Police Services. The raw dataset will be cleaned and modified in analyzing purpose, without change to original data. The main content focuses on the pattern of case outcome by groups of gender and age, source of infection, and time lag for case reporting. I found that the pattern of case outcomes are different when grouping the clients by gender and age. Moreover, the source of infection and time lag indicate potential problem of public health management in Toronto. Analyzing are based on summary table and data visualization using statistical graphes, including proportional, pie, bar, and box plots, as well as the real-world context. The dataset will be processed and analyzed in R primarily using the tidyverse [@tidyverse] and dplyr [@dplyr] packages. Figures and tables will be created with ggplot2 [@ggplot2], lubridate [@lubridate], patchwork [@patchwork], and scales [@scales].
 
 
 # Data Source
