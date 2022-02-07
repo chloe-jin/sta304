@@ -9,7 +9,7 @@ abstract: "COVID-19 case datasets are important tools for rational implementatio
 bibliography: ref_list.bib
 ---
 
-Code and data supporting this analysis is available at. ^[This footnote will appear at the bottom of the page.: https://github.com/chloe-jin/sta304]
+^[Code and data supporting this analysis is available at.: https://github.com/chloe-jin/sta304]
 
 ```{r, include = FALSE}
 library(opendatatoronto)
